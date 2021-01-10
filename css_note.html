@@ -1,0 +1,133 @@
+1.* Css all measurement unit dia search diley all units dekhabe ja amra use kortey parbo linke px, % er moto 
+
+
+
+2.Unit	Description	Example
+%	Defines a measurement as a percentage relative to another value, typically an enclosing element.	p {font-size: 16pt; line-height: 125%;}
+cm	Defines a measurement in centimeters.	div {margin-bottom: 2cm;}
+em	A relative measurement for the height of a font in em spaces. Because an em unit is equivalent to the size of a given font, if you assign a font to 12pt, each "em" unit would be 12pt; thus, 2em would be 24pt.	p {letter-spacing: 7em;}
+ex	This value defines a measurement relative to a font's x-height. The x-height is determined by the height of the font's lowercase letter x.	p {font-size: 24pt; line-height: 3ex;}
+in	Defines a measurement in inches.	p {word-spacing: .15in;}
+mm	Defines a measurement in millimeters.	p {word-spacing: 15mm;}
+pc	Defines a measurement in picas. A pica is equivalent to 12 points; thus, there are 6 picas per inch.	p {font-size: 20pc;}
+pt	Defines a measurement in points. A point is defined as 1/72nd of an inch.	body {font-size: 18pt;}
+px	Defines a measurement in screen pixels.	p {padding: 25px;}
+
+
+3.*cse selectors and advanced selectors likhey search diley pawa jabe kivbabe onek gulo cls kaj kore dekha jabe
+
+4).class_name{
+border:20px solid or dashed or dotted green;
+}
+
+solid or dashed or dashed er hotey pare border ta
+
+
+5.*interview
+q:css box model ki?
+ekta website er moddey ekta element koto tuku jayga nibe ta define kore 5ta jinish.ar ekey boley css er box model.
+example-
+.class_name{
+border:40px solid yellow;
+width:50px;
+height:70px;
+margin:10px;
+padding:2px;
+
+6.topic:
+pesudo class 
+5_5-2 pseudoclass focus first child, last child, nth child, visited 
+
+h1:hover{
+}
+input:focus{}
+
+a:visited{
+color:red;}
+
+a is anchor tag. youtube visited link show example
+
+li:nth-child(2n+1){
+background-color:red;
+}
+that means list elemenths last list item  hover colr  red is shown
+
+7.pesudo element 
+h1::before{
+content:"hello"
+}
+h1 er agey hellow leka ashbe .content must likha lagbe.
+
+
+
+*topic -interview
+css specificity ki?
+ans:!importent j use hoy oita
+
+//html5
+*audio er tag
+<audio controls src="audio filer er name with extention">
+
+</audio>
+
+<video controls src="video file or nam ext">
+</video>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qdR3qFKxPTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+iframe hochey youtube or onno kuno video nijer web site e chalano
+embed option dia iframe er code copy kora lage youtube theke.1st youtube e jabo.then share e click korbo,then embed option click korbo
+
+
+
+*interview q:
+html vs hml5
+https://www.geeksforgeeks.org/difference-between-html-and-html5/
+https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/03/differences-between-html-and-html5.png
+
+
+*row table style-
+table{
+border-collapse: collapse;}
+td, th{
+border :1px solid black;
+padding: 0 10 ;
+}
+
+<table>
+<caption>my table name</caption>
+<thead></thead>
+<tbody></tbody>
+
+</table>
+
+
+
+*sementic tags - section article aside mark
+
+*row form
+<form>
+<p>Name:<input type="text"></p>
+<p>Tell:<input type="tel" name="" id=""></p>
+<p>Email:<input type="email" name="" id="">  </p>
+<fieldset>
+    <legend> select your pitha</legend>
+        <p> <label for="chutki"><input type="radio" name="pita" id="chutki"></label>
+        </p>
+        <p> <label for="vhapa"><input type="radio" name="pita" id="vhapa"></label>
+
+   
+</fieldset>
+
+<fieldset>
+    <legend> select your vorta</legend>
+        <p> <label for="vorta"><input type="checkbox" name="vorta" id="chutki"></label>
+        </p>
+        <p> <label for="vorta"><input type="checkbox" name="vorta" id="chutki2"></label>
+
+   
+</fieldset>
+<p><label for="">Special <textarea name="" id="" cols="6" rows="3"></textarea></label></p>
+<button type="submit">submit</button>
+</form>
