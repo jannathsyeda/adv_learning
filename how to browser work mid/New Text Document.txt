@@ -1,0 +1,30 @@
+1.document.body.contentEditable=true (diley browser e data edit kora jay)
+2.url-universal resource loacator
+2.devobs key word.http and https diff
+3).com/.org main domane
+4..com/.org er agey jodi .something takey tailey takey sub domain boley
+5)ctrl+l for url copy
+6)window.location
+7)location.href="htp://hfjyh"
+8)js history api( 
+history
+/window.history go(1)
+window. history back()
+maeans ageyr tab e jabe open jeta ase oi website er)
+(like form er submit e ek page pore arek page jabe,suddenly kuno ekta data misssing ,but fill na korley form choley jabe,pichoney page geel.thokon history dia history ene missing page e jawa jabe)(js history site)
+
+9)console er application gia  cookies pabo.(site:js cookies)
+10)localStorage.setItem("isSubscribe","true")
+11)sessionStorage.setItem("isPlaying","true")
+12)cash clear (shift+r)or mouse reload e dore rake cash clear and hard reload e dibo)
+13)ctl+f for find elemeny in dev tool console
+
+14)ctrl+shift+o(kuno item related ja ase)
+15)kunoelement e kaj kora obosta console nise astey holey esc press kortey hobe console table er jonno
+
+
+16)ctrl+shift+f diley all file the search
+17)consoe devtool console api (site for all console)
+18)audits
+19)site(dev tools tips omor )vvi .video tutorial
+20)50 dev tools and trickes:become an expert front end developer (youtube video link)
